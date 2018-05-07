@@ -1,0 +1,29 @@
+{
+  "name": "webpack-svg-to-json-plugin",
+  "version": "1.0.0",
+  "description": "merges all svgs of a given directory in a json file",
+  "main": "svg-to-json.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kinoheld/webpack-svg-to-json-plugin.git"
+  },
+  "keywords": [
+    "svg",
+    "json"
+  ],
+  "author": "Frank Talk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kinoheld/webpack-svg-to-json-plugin/issues"
+  },
+  "homepage": "https://github.com/kinoheld/webpack-svg-to-json-plugin#readme",
+  "dependencies": {
+    "fsevents": "^1.2.3",
+    "glob": "^7.1.2",
+    "loader-utils": "^1.1.0",
+    "path": "^0.12.7"
+  }
+}
